@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    font-weight: normal;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+/* END OF RESET*/
+
+body {
+    max-width: 1000px;
+    margin: 10px auto;
+    background-color:rgb(212, 178, 220);
+}
+
+img {
+    margin: 10px auto;
+    width: 100%;
+    align-items: center;
+    padding: 10px auto;
+}
+
+nav {
+ background-color: rgb(167, 115, 154);
+ text-align: right;
+ border-bottom: 1px solid black;
+ padding: 10px;
+}
+
+nav a, nav p {
+    margin-left: 12px;
+    display: inline;
+}
+
+nav a:hover {
+    color: rgb(233, 181, 217);
+}
+
+/*MAIN*/
+main {
+    margin-bottom: 50px;
+    background-color: rgb(170, 126, 166);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+
+.center-list {
+    text-align: center; 
+}
+
+.center-list ul {
+    display: inline-block; 
+    text-align: left;     
+    padding: 0;         
+    margin: 0;        
+}
+
+
+main a:hover {
+    color: rgb(233, 181, 217);
+}
+
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+    margin: 10px;
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
+  max-width: 1000px;
+  margin: 10px; 
+  padding: 10px;
+}
+
+.card {
+  background-color: #b291b8; 
+  border-radius: 13px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0 5px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.95rem;
+}
+
+  .card:hover {
+        transform: translateY(-5px);
+  }
+
+
+form {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(167, 115, 154);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 4px;
+    margin: 4px;
+}
+
+
+/*FOOTER*/
+footer {
+    display: flex;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+footer img {
+    height: 30px;
+    width: 80px;
+    margin: 0px;
+    
+}
+
+
+
